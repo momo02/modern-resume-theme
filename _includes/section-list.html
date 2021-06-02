@@ -23,7 +23,14 @@
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
-      {{ item.description | strip | markdownify }}
+     <!-- {{ item.description | strip | markdownify }} -->
+      <!-- 수정 -->
+      {% for item1 in item.description2 %}
+        <h4 style="font-size: 2rem;"><b>{{ item1.title }}</b></h4>
+        <p>{{ item1.sub_title }}</p>
+        <p>{{ item1.content | strip | markdownify }}</p>
+        <br/>
+      {% endfor %}
     </div>
   </div>
 {% endfor %}
