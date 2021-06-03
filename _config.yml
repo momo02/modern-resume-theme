@@ -98,8 +98,7 @@ content:
             content: | # this will include new lines to allow paragraphs
               - 중국 전담 여행사를 통해 방한한 중국인들의 안전 관광을 위한 관광객, 가이드용 APP 개발.
               - 백그라운드 상태에서도 관광객의 위치를 서버에 전송해주는 위치모듈 개발.
-              - Firebase Api 사용 
-                - Fcm(firebase cloud messaging)을 이용한 푸시알림 송수신 기능 및 Firestore를 이용한 채팅 기능 개발.
+              - Firebase Api 사용 : Fcm(firebase cloud messaging)을 이용한 푸시알림 송수신 기능 및 Firestore를 이용한 채팅 기능 개발.
               - cross-platform 모바일 앱 개발 프레임워크인 React-native 를 사용하여 IOS, Android 어플 동시 개발.
               - Linux, Java, JS, React-native, Spring boot, Mysql, JPA, Intellij, Visual Studio Code, Git, Firebase
           - title: 항공사 - 여행사 연계 시스템 'NDC Platform & Engine' 구축
@@ -166,7 +165,7 @@ content:
               - 실시간 항공기 위치 정보를 화면에 표출하기 위해 Ajax + Spring 롱폴링 방식을 적용.
               - 지도 위 항공기를 Javascript 프로토타입 클래스 방식으로 구현하여 메모리 누수를 줄이고 렌더링 최적화.
               - Linux, Spring4, JS, JQuery, Oracle, Mybatis, Eclipse, Svn 
-              - Reference : http://www.ibleaders.co.kr/integration/build?id=1&page=1&v_md=detail
+              - Reference : [구축 화면](http://www.ibleaders.co.kr/integration/build?id=1&page=1&v_md=detail)
       - layout: left
         title: 메타넷
         sub_title: System Operator
@@ -195,7 +194,14 @@ content:
               - 웹 접근성을 고려한 Front-end 개선 작업(HTML, CSS, JS, JQuery) 및 사용자 인터페이스 제공. 
               - 이후 제주항공 홈페이지가 국가 공인 인증기관 웹와치 웹 접근성 인증을 획득.
               - HTML, CSS, Jsp, JS, JQuery, Eclipse, Svn
-
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **BackEnd** : Java, Node.js, Spring, Spring Boot, JDBC, Mybatis, JPA(Hibernate), Junit
+      - **FrontEnd** : HTML5, CSS, JS(ES6), TypeScript, JQuery, Vue.js, React, React-native
+      - **OS** : Linux, Unix 
+      - **Database** : MySQL, MS-SQL, Oracle
+      - **IDE & VCS & ETC** : Eclipse, IntelliJ, Visual Studio Code / Git , Subversion / Figma, Slack
   - title: Education & Certificate
     layout: list
     content:
@@ -215,12 +221,13 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
