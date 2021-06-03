@@ -81,14 +81,14 @@ content:
   #         Short overview of the project (optional)
   #       description: | # this will include new lines to allow paragraphs
   #         Description about the work on/with the project
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
       - layout: left
         title: 팔네트웍스
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: Web/App developer
+        caption: 2018.04 ~ 2021.05
+        # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
         # description: | # this will include new lines to allow paragraphs
@@ -154,9 +154,8 @@ content:
 
       - layout: left
         title: 다보이앤씨
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: Web developer
+        caption: 2017.02 ~ 2018.03
         description2:
           - title: 경량 항공기 비행상황 관리 시스템 구축 및 유지보수
             sub_title: 국토교통부 - 2017.02 ~ 2018.03
@@ -170,9 +169,8 @@ content:
               - Reference : http://www.ibleaders.co.kr/integration/build?id=1&page=1&v_md=detail
       - layout: left
         title: 메타넷
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: System Operator
+        caption: 2016.06 ~ 2017.01
         description2:
           - title: 인천국제공항 아우리 시스템 운영 및 유지보수
             sub_title: 인천국제공항공사 - 2016.06 ~ 2017.01
@@ -182,9 +180,8 @@ content:
               - Linux, Java, JS, JQuery, eGovFrame, Oracle, Eclipse
       - layout: left
         title: 투캔즈
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        sub_title: Web developer
+        caption: 2015.08 ~ 2016.05
         description2:
           - title: 비행 훈련 안전 시스템 구축 사업
             sub_title: 인천지방중소기업청 - 2016.01 ~ 2016.06
@@ -199,15 +196,23 @@ content:
               - 이후 제주항공 홈페이지가 국가 공인 인증기관 웹와치 웹 접근성 인증을 획득.
               - HTML, CSS, Jsp, JS, JQuery, Eclipse, Svn
 
-  - title: Education
+  - title: Education & Certificate
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: 성공회대학교
+        sub_title: 정보통신공학과 학사
+        caption: 2012 - 2016
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+      - layout: top-right
+        title: 정보처리기사
+        sub_title: 자격증 취득
+        caption: "2015.10.23"
+        # quote: >
+        #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: A Little More About Me
